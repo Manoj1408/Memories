@@ -135,26 +135,8 @@ function Auth() {
           >
             {isSignup ? "Sign Up" : "Sign In"}
           </Button>
-          <GoogleOAuthProvider clientId="909668231472-2pknu9i2j1gvlg4icauvs7u3ne0lf254.apps.googleusercontent.com">
-            {/* <GoogleLogin
+          <GoogleOAuthProvider clientId="Google Id">
             
-            render={(renderProps) => (
-              <Button
-                className={classes.googleButton}
-                color="primary"
-                fullWidth
-                onClick={renderProps.onClick}
-                disabled={renderProps.disabled}
-                startIcon={<Icon />}
-                variant="contained"
-              >
-                Google Sign In
-              </Button>
-            )}
-            onSuccess={googleSuccess}
-            onFailure={googleError}
-            cookiePolicy="single_host_origin"
-          /> */}
             <GoogleLoginButton />
           </GoogleOAuthProvider>
 
