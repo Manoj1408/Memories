@@ -1,3 +1,7 @@
+In the project directory, you can run:
+
+### `npm install`
+### `npm start`
 # Memories
 Memories a fully functional web application built using the MERN stack where users can create a post like in Instagram.
 User authentication and authorization: Implemented user login and authentication features using bcrypt and JWT token, ensuring secure access to the application allowing user login using Gmail and google account.
